@@ -1,0 +1,25 @@
+#menu-list{
+    background-color: lightblue;
+    margin: 2rem 30rem;
+}
+#menu-side, #pick-side {
+    background-color: lightseagreen;
+}
+
+h1{
+    color: red;
+    margin-left: 35rem;
+}
+
+.section, .footer, .header {
+    background-color: orange;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header{
+    background-color: grey;
+}
+
+.footer{
+    background-color: grey;
+}
