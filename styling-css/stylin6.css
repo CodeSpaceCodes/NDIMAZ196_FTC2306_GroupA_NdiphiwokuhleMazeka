@@ -1,9 +1,19 @@
 #menu-list{
-    background-color: lightblue;
-    margin: 2rem 30rem;
+    background-color: transparent;
+    font-size: 24px;
+;
 }
 #menu-side, #pick-side {
-    background-color: lightseagreen;
+    border: transparent;
+    background-color: transparent;
+    float: left;
+}
+
+#main-menu{
+    position: fixed;
+    right: 30px;
+    top: 200px;
+
 }
 
 h1{

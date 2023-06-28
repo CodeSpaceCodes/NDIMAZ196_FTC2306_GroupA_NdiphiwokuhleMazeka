@@ -4,6 +4,7 @@
 }
 #menu-side, #pick-side {
     background-color: lightseagreen;
+    float: right;
 }
 
 h1{
@@ -13,7 +14,6 @@ h1{
 
 .section, .footer, .header {
     background-color: orange;
-    font-family:'Courier New', Courier, monospace;
 }
 
 .header{
