@@ -1,5 +1,7 @@
 html{
-    background-color: rgb(170, 178, 176);
+    /* background-color: rgb(170, 178, 176); */
+    background-image: linear-gradient(to right top, #f4e9ef, #ecd9e9, #dfcbe7, #cdbfe7, #b4b4e7, #a5b7eb, #94bbed, #83beec, #8cccec, #9ed9eb, #b4e5eb, #cdf0ee);
+    background-repeat: no-repeat;
     margin:0;
     border: 1px red solid;
 }
