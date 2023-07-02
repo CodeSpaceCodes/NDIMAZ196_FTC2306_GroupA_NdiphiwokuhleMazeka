@@ -13,6 +13,8 @@ html{
 #name{
     text-align: center;
     color: whitesmoke;
+    position: relative;
+    top: 50px;
 }
 
 #intro-mes{
@@ -80,7 +82,7 @@ footer ul{
 footer ul li{
     display: inline;
     padding: 1px;
-}
+} 
 
 h2{
     background-color: grey;
@@ -111,4 +113,29 @@ h2{
 #back-to-top:hover > button {
     text-decoration: none;
     color: rgb(198, 156, 78);
+}
+
+#Facebook-logo{
+    width: 10%;
+}
+
+#LinkedIn{
+    width: 10%;
+}
+
+#gps{
+    width: 10%;
+}
+
+footer ul li{
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
 }
