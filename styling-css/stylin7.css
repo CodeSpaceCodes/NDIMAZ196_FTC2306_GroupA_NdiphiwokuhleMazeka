@@ -128,15 +128,18 @@ h2{
     width: 10%;
 }
 
-footer ul li{
-    animation: animate 1s linear infinite;
+.logo :hover{
+    cursor: pointer;
+    animation: animate 1s linear;
 }
 
 @keyframes animate{
     0%{
+        transform: rotateY(180deg);
         filter: hue-rotate(0deg);
     }
     100%{
+        transform: rotateY(360deg);
         filter: hue-rotate(360deg);
     }
 }
@@ -145,6 +148,23 @@ footer h3{
     text-align: center;
 }
 
-#Message{
-    padding: 20%;
+
+/* .must::after{
+    content: "This field is required";
+    font: 20px;
+    color: red;
+} */
+
+.captions{
+    font-size: 12px;
+    color: red;
+}
+
+label{
+    display: inline-block;
+    width: 240px;
+    padding: 2px;
+}
+form{
+    float: auto;
 }
