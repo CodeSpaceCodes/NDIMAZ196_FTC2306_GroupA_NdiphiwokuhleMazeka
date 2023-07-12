@@ -1,0 +1,188 @@
+html{
+    margin: 2px green solid;
+    border: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, #332a96, #252d8b, #1a2e80, #122e74, #102d67, #002c5c, #002a50, #002744, #002335, #001d26, #001619, #010d0c);
+    background-repeat: no-repeat;
+}
+header{
+    margin: 0;
+    padding: 0;
+    border: blue 2px solid;
+    background-image: url(../photos/software_development.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    max-width: 1536px;
+    height: 700px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.pp{
+    width: 350px;
+    height: 450px;
+    border-radius: 20%;
+    border: solid 2px white;
+    text-align: center;
+}
+header p{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+nav ul{
+    list-style-type: none;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: ls;
+}
+
+nav ul li{
+    display: inline;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(221, 221, 231);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#nav-bar{
+    /* border: solid black 2px; */
+    margin-top: 0px;
+    position: sticky;
+    top: 20px;
+}
+
+ol li{
+    color: whitesmoke;
+}
+
+ul p{
+    color: whitesmoke;
+}
+
+footer{
+    background-color: rgb(23, 23, 67);
+    color: white;
+    bottom: 0;
+}
+
+#contacts{
+    text-align: center;
+}
+
+footer ul li{
+    display: inline;
+    padding: 1px;
+} 
+
+h2{
+    background-color: grey;
+    margin: 0;
+}
+
+/* ---- Back to top ---- */
+
+#back-to-top > button{
+    background-color: rgb(198, 156, 78);
+    border-radius: 50%;
+    border: solid 1px rgb(198, 156, 78);
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+}
+#back-to-top:hover > button {
+    border: solid 1px rgb(198, 156, 78);
+    background-color: white;
+    
+}
+#back-to-top > button {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#back-to-top:hover > button {
+    text-decoration: none;
+    color: rgb(198, 156, 78);
+}
+
+#Facebook-logo{
+    width: 10%;
+}
+
+#LinkedIn{
+    width: 10%;
+}
+
+#gps{
+    width: 10%;
+}
+
+.logo :hover{
+    cursor: pointer;
+    animation: animate 1s linear;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotateY(180deg);
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+footer h3{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+/* .must::after{
+    content: "This field is required";
+    font: 20px;
+    color: red;
+} */
+
+.captions{
+    font-size: 12px;
+    color: red;
+}
+
+label{
+    display: inline-block;
+    width: 240px;
+    padding: 2px;
+}
+form{
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    div{
+        padding: 2px;
+    }
+}
+
+@media (max-width: 768px){
+    div{
+        padding: 4px;
+    }
+}
+
+@media (max-width: 1215px){
+    div{
+        padding: 8px;
+    }
+}
